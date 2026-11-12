@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="formSubmit">
+        <label for="username">Name: </label>
+        <input type="text" name="username" placeholder="Enter your name" id="username" />
+        <br>
+        <label for="phone">Phone: </label>
+        <input type="tel" name="phone" placeholder="Enter your Phone number" id="phone" />
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" placeholder="Enter your email" id="email" />
+        <br>
+        <button type="submit" id="btn"> Add </button>
+    </form>
+
+    <ul id="usersList"></ul>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./user.js"></script>
+
+</html>
